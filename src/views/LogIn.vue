@@ -17,11 +17,11 @@
                         <fieldset>
                             <div class="form-group">
                                 <label for="id_user" class="login-label">{{ $t('user') }}</label>
-                                <input class="form-control form-control-lg" v-model="loginModel.user" autocomplete="on" id="id_user" type="text">
+                                <input class="form-control form-control-lg" v-model="loginModel.user" required autocomplete="on" id="id_user" type="text">
                             </div>
                             <div class="form-group">
                                 <label for="id_password" class="login-label">{{ $t('password') }}</label>
-                                <input class="form-control form-control-lg" type="password" v-model="loginModel.password" autocomplete="off" id="id_password" @keyup.enter="signIn">
+                                <input class="form-control form-control-lg" type="password" required v-model="loginModel.password" autocomplete="off" id="id_password" @keyup.enter="signIn">
                             </div>
 
                             <b-button variant="primary" block @click="signIn" size="lg">

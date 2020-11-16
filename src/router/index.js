@@ -25,12 +25,7 @@ const routes = [
     component:ClientLayout,
     meta: { requiresAuth: true },
     children: [
-        {
-          path:'/Client/ClientLayout',
-          name:'ClientLayout',
-          component:ClientLayout,
-          meta: { requiresAuth: true } 
-        },
+      
         {
           path: '/Client/TplInformation',
           name:'TplInformation',

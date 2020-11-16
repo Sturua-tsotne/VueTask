@@ -57,7 +57,7 @@ class TplModel {
         this.mobileNumber = obj.mobileNumber
         this.email = obj.email
         this.identityImg = obj.identityImg
-        this.Active = obj.status
+        this.status = obj.status
         this.carRegistrationNumber=obj.carRegistrationNumber
         this.carReleaseTime=obj.carReleaseTime
         this.manufacturersId=obj.manufacturersId

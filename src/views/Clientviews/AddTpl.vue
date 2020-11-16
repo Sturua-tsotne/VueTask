@@ -1,6 +1,8 @@
 <template>
 <Page class="AddTpl">
-
+ <div>  
+    <h6></h6>
+ </div>
 </Page>
 </template>
 
@@ -20,14 +22,4 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.home-panel {
-    vertical-align: center;
-    font-size: 20;
-    margin: 15;
-}
 
-.description-label {
-    margin-bottom: 15;
-}
-</style>
